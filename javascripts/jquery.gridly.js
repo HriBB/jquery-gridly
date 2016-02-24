@@ -324,7 +324,6 @@ Copyright 2015 Kevin Sylvestre
           reordered.push(el);
         }
       });
-      console.log('draggingEnded');
       // nothing changed
       if (!reordered.length) return;
       // pass reordered items as second parameter to the callback
